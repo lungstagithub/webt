@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1B1B1B;
+}
+
+a img{
+    height: 30%;
+    width: 25%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.GallaryContainer{
+    margin-top: 5%;
+    background-color: #0B0B0B;
+    width: 70%;
+    
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.TitleBox h1{
+    text-align: center;
+    font-size: 43px;
+    color: aliceblue;
+    font-family:'Roboto Thin';
+    font-weight: normal;
+    font-style: normal;
+}
+.TitleBox h2{
+    text-align: center;
+    font-size: 23px;
+    color: #ededed;
+    opacity: 0.5;
+    font-family:'Roboto Thin';
+    font-weight: normal;
+    font-style: normal;
+}
+.TitleBox hr{
+    
+    opacity: 0.2;
+}
+
+.WebCredits {
+    margin-top: 40px;
+}
+.WebCredits h3{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto Thin';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;  
+}
+.WebCredits p{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto Thin';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px; 
+    letter-spacing: 2px;
+}
+.WebCredits h4{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Social Font';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 34px; 
+    letter-spacing: 4px;
+    opacity: 0.5;
+}
+
+.WebCredits hr{
+    opacity: 0.2;
+}
+
+.WebCredits li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+.WebCredits li{
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    display: block;
+    height: 70px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+font-family: "Roboto Thin";
+src: url("Roboto/Roboto-Thin.ttf");
+}
+@font-face {
+font-family: "Social Font";
+src: url("fonts/Social_Shapes.ttf");
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CampTree Studio</title>
+    <link rel="stylesheet" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" href="Main.css">
+    <script
+  src="https://code.jquery.com/jquery-1.10.2.min.js"
+  integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
+  crossorigin="anonymous"></script>
+    <script src="jquery.fancybox.min.js"></script>
+    <script src="jquery.iMissYou.js"></script>
+    <link rel="shortcut icon" href="cts_icon3.png">
+
+</head>
+<body>
+    
+    
+    
+    <div class="TitleBox">
+       <h1>CampTree Studio</h1> 
+       <h2> Gallary Showcase</h2>
+       <hr>
+    </div>
+    
+    <center>
+    <div class="GallaryContainer">
+        
+    
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    <a data-fancybox="gallery" href="cts_img_preview.png"><img src="cts_img_preview.png"></a>
+    
+    </div>
+     </center>
+     
+     <footer>
+         <div class="WebCredits">
+
+            <li>
+                <a href="#"><h4>c</h4></a>
+                <a href="#"><h4>f</h4></a>
+                <a href="#"><h4>d</h4></a>
+            </li>
+            
+            <hr>
+            
+             <h3>CampTree Studio</h3>
+             <p>All Rights Reserved | 2018</p>
+         </div>
+     </footer>
+     
+    <script type="text/javascript">
+            $('[data-fancybox]').fancybox({
+                loop: false,
+                buttons: [
+                    "zoom",
+                    "share",
+                    //"slideShow",
+                    "fullScreen",
+                    "download",
+                    "thumbs",
+                    "close"
+                ],
+                animationEffect: "zoom-in-out",
+                transitionEffect: "zoom-in-out"
+            });
+    </script>
+</body>
+<script>
+    jQuery(document).ready(function($){
+        $.iMissYou({
+            title: "We Miss You",
+            favicon: {
+                enabled: true,
+                src:'cts_icon3.png'
+            }
+        });
+    });
+</script>
+</html>
